@@ -12,7 +12,7 @@ Sometimes, in some dependencies, there are two packages, one only for the core a
 
 `npx`, is for installed package. To run a typescript file, you need to install the package and create a configuration file.
 
-### In node with commands
+### Node with commands
 
 ```console
 ❯ npm install typescript -D
@@ -23,19 +23,19 @@ Sometimes, in some dependencies, there are two packages, one only for the core a
 ❯ npm run dev
 ```
 
-### Migrations
+## Migrations
 
-Nas migrações será feito com knex, na criação de tabelas cria-se os arquivos e programa js.
+In migrations it will be done with knex, in the creation of tables, the js files and program are created.
 
-- Podendo se exportado pra qualquer outro banco posteriormente.
+- Being able to export to any other bank later (Ex: Postgres, MariaDB, ...).
 
-Run migrations
+Run migrations:
 
 ```console
 ❯ npx knex migrate:latest --knexfile knexfile.ts migrate:latest
 ```
 
-### In React
+## React
 
 ```console
 ❯ npx create-react-app web --template=typescript
