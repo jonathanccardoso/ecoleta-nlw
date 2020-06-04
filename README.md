@@ -1,3 +1,3 @@
-# Name Project
+# Ecoleta
 
-> A next step in your career. Using typescript ;)
+> Aplicação para ajudar pessoas a encontrarem pontos de coleta para reciclagem.
