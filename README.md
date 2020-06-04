@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img alt="Ecoleta" title="#logo" width="300px" src=".github/logo.png"><br>
+  <img alt="Ecoleta" title="#logo" width="300px" src=".github/logo.svg"><br>
 </h3>
 
 ## :rocket: Technology
@@ -14,11 +14,9 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-![Ecoleta Result](.github/ecoleta-result.png)
-
 Application produced to help people find collection points for recycling.
 
-<br />
+![Ecoleta Result](.github/ecoleta-result.png)
 
 ---
 
