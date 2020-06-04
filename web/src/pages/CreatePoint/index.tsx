@@ -117,7 +117,7 @@ const CreatePoint = () => {
     const alreadySelected = selectedItems.findIndex((item) => item === id);
 
     if (alreadySelected >= 0) {
-      const filteredItems = selectedItems.filter((item) => item === id);
+      const filteredItems = selectedItems.filter((item) => item !== id);
 
       setSelectedItems(filteredItems);
     } else {
@@ -265,7 +265,7 @@ const CreatePoint = () => {
             <span>Selecione um ou mais ítens abaixo</span>
           </legend>
 
-          <ul className="itens-grid">
+          <ul className="items-grid">
             {items.map((item) => (
               <li
                 key={item.id}
