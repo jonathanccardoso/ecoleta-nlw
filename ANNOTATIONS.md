@@ -3,14 +3,21 @@
 ## Links
 
 - Organization [whimsical](https://whimsical.com/)
-- Prototyping [Figma](#)
+- Prototyping [Figma](https://www.figma.com/)
 - Annotations [Notion](https://www.notion.so/)
+- Imagens Free [Unsplash](https://unsplash.com/)
 
 ## TypeScript warnings
 
 Sometimes, in some dependencies, there are two packages, one only for the core and the other for typing.
 
 `npx`, is for installed package. To run a typescript file, you need to install the package and create a configuration file.
+
+Import types of libs. Example:
+
+```console
+❯ npm i @types/multer -D
+```
 
 ### Node with commands
 
