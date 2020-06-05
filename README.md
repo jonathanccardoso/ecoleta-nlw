@@ -9,8 +9,10 @@ This project was developed with the following technologies:
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
 - [Typescript on React](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
+<!--
 - [React Mobx](https://github.com/mobxjs/mobx-react)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) 
+-->
 
 ## 💻 Project
 
